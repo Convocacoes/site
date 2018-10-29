@@ -1,0 +1,432 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 0;
+  color: #5a5a5a;
+}
+
+/* NAV */
+
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+
+.nav-item .nav-link {
+  padding-left:1rem !important;
+  padding-right:1rem !important;
+}
+
+.convocacoes-steps img {
+  height:4rem;
+  margin-bottom:15px;
+}
+
+.convocacoes-steps span {
+  font-size: .7rem;
+  font-weight: bold;
+  color: #3B3959;
+}
+
+/* PAGE TITLE */
+
+.page-title {
+  color: #3B385A;
+  font-weight: bold;
+  margin-bottom:30px;
+}
+.page-title .page-subtitle {
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+/* FAQ */
+
+.faq .accordion .card {
+  border-width: 1px 0 0 0;
+}
+
+.faq .accordion .card-header {
+  background-color: transparent;
+}
+
+.faq .accordion .card-header button {
+  color:#3B385A !important;
+  text-decoration: none;
+}
+
+/* .faq .accordion .card-header {
+  text-align: left;
+} */
+
+.faq .accordion .card-body {
+  color: #fff;
+  background-color:#3B385A;
+}
+
+/* Parceiros */
+.parceiros img:hover {
+  -webkit-filter: grayscale(100%) !important;
+  -moz-filter: grayscale(100%) !important;
+  filter: grayscale(100%) !important;
+  transition: all 0.5s ease !important;
+}
+
+.parceiros img {
+  -webkit-filter: grayscale(0%) !important;
+  -moz-filter: grayscale(0%) !important;
+  filter: grayscale(0%) !important;
+}
+
+/* JORNADA */
+
+.jornada .card .card-body .card-title{
+  color:#3B385A;
+  font-size: 1.3rem;
+}
+.jornada .card .card-body .card-text{
+  color: gray;
+  font-size: .9rem;
+  padding-bottom:20px;
+}
+
+/* Footer */
+
+footer * {
+  font-size: .8rem;
+}
+
+.row-footer {
+  background-color: #3B385A;
+  color:#fff;
+}
+
+.shadow {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.top-buffer {
+  margin-top:30px;
+}
+
+.bottom-buffer {
+  margin-bottom:30px;
+}
+
+.bg-light {
+  background-color: #fff!important;
+}
+
+.tabela-alerta-vagas td {
+  padding: 5px !important;
+  color: gray;
+}
+
+/* CUSTOMIZE SUCCESS 
+-------------------------------------------------- */
+.success {
+  color: #38D095;
+}
+.btn-success {
+  color: #fff !important;
+  background-color: #38D095;
+  border-color: #38D095;
+}
+.btn-outline-success {
+  color: #38D095;
+  background-color: transparent;
+  border-color: #38D095;
+}
+
+/* STATS */
+
+.stats .card {
+  border-width: 0;
+  background-size:cover !important;
+  text-align: center;
+}
+
+.stats .card .card-title {
+  color: #fff;
+  margin-top:100px;
+  font-size: 2.7rem;
+  font-weight: bolder;
+}
+
+.stats .card .card-subtitle {
+  color: #5CB9DA;
+  margin-bottom: 30px;
+}
+
+.stats .card .card-text {
+  color: #E5E8EC;
+}
+
+.stats .card .btn-outline-success {
+  color: #FFF;
+}
+
+/* CONCURSOS ABERTOS */
+
+.concursos-abertos .card-header {
+  padding: .5rem 1rem;
+}
+
+.concursos-abertos .card-header .card-header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.concursos-abertos .card-sub-title {
+  font-size: .7rem;
+  color:#FFF;
+  padding: 4px;
+}
+
+.concursos-abertos .card-header .card-header-salary small {
+  font-size: .6rem;
+}
+
+.concursos-abertos .card-header .card-header-salary {
+  line-height: .9rem;
+  font-size: .8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.concursos-abertos .card-1 .card-header {
+  background-color: #030F46;
+  color:#FEC42F;
+}
+
+.concursos-abertos .card-1 .card-header-salary small {
+  color: #5CB9DA;
+}
+
+.concursos-abertos .card-1 .card-sub-title {
+  background-color: #2B3D7D;
+}
+
+.concursos-abertos .card-2 .card-header {
+  background-color: #3A482F;
+  color:#FFF;
+}
+
+.concursos-abertos .card-2 .card-header-salary small {
+  color: #FEC42F;
+}
+
+.concursos-abertos .card-2 .card-sub-title {
+  background-color: #687B43;
+}
+
+.concursos-abertos .card-3 .card-header {
+  background-color: #AC4935;
+  color:#FFF;
+}
+
+.concursos-abertos .card-3 .card-header-salary small {
+  color: #FFF;
+}
+
+.concursos-abertos .card-3 .card-sub-title {
+  background-color: #0B6049;
+}
+
+.concursos-abertos .card-4 .card-header {
+  background-color: #134290;
+  color:#FFF;
+}
+
+.concursos-abertos .card-4 .card-header-salary small {
+  color: #E5C574;
+}
+
+.concursos-abertos .card-4 .card-sub-title {
+  background-color: #316BB5;
+}
+
+.concursos-abertos .card-footer {
+  background-color: #FFF;
+}
+
+.concursos-abertos .card-footer a {
+  color: #3B385A;
+}
+
+
+/* CUSTOMIZE PRICING CARDS 
+-------------------------------------------------- */
+.pricing-table .card-header {
+  background-color: #5CB9DA;
+  color:#fff;
+  border-bottom: 0px;
+  font-size: .8rem;
+}
+
+.pricing-table .muted {
+  color: #6D6A6D;
+}
+
+.pricing-table table.price td {
+  font-size: 1.5rem;
+  color: #38D095;
+  text-align: left;
+  vertical-align: top;
+  line-height: 0.7;
+}
+
+.pricing-table table.price-master td {
+  font-size: 1.5rem;
+  color: #60B9D8;
+}
+.pricing-table table.price td small {
+  font-size: .7rem;
+}
+
+.pricing-table table.price td.main-price {
+  font-size: 3rem;
+  line-height: 0.7;
+}
+
+.pricing-table table.price-details th {
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: normal;
+  font-size: .7rem;
+}
+
+.pricing-table table.price-details td {
+  padding: 4px;
+  text-align: left;
+}
+
+.pricing-table ul.price-details {
+  font-size: 0.8rem;
+}
+
+.pricing-table ul.price-details li {
+  line-height: 2rem;
+}
+
+.pricing-table ul.price-details li i.fas {
+  color:#38CE94;
+}
+
+.pricing-table .plan-description {
+  font-weight: bold;
+}
+
+.promo-table .card-header {
+  background-color: #3B385A;
+}
+
+.faq .btn {
+  white-space: normal;
+}
+
+/* BLOG POSTS */
+
+.blog-posts .card {
+  border:0;
+}
+.blog-posts .card-title {
+  color: #27263B;
+}
+.blog-posts .card-text {
+  color:gray;
+}
+.blog-posts .card-body {
+  padding:0;
+}
+.blog-posts .post-date {
+  padding:10px 0;
+  color: silver;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  color:#3B385A;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 2.3rem;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 5rem;
+  }
+}
+
