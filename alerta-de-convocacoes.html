@@ -500,9 +500,54 @@
     </section>
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="scripts/popper.min.js"></script>
-  <script src="scripts/bootstrap.min.js"></script>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPlanoAprovacao">
+  Launch demo modal
+</button>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="scripts/popper.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+
+<!-- Modal Plano de Aprovação -->
+<div class="modal fade" id="modalPlanoAprovacao" tabindex="-1" role="dialog" aria-labelledby="modalPlanoAprovacaoTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="modalPlanoAprovacaoTitle">Dificuldade em focar nos estudos?</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- <h2 class="text-center">Dificuldade em focar nos estudos?</h2> -->
+        <p class="pt-2 pb-4">Preparamos um material GRATUITO que vai facilitar e organizar sua vida de concurseiro!</p>
+        <a href="http://clube.convocacoes.com.br/planoaprovacao" target="_blank" _data-dismiss="modal">
+          <img class="img-fluid" style="max-height:250px;" src="images/plano-de-aprovacao.png" alt="">
+        </a>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+ $(document).ready(function() {
+   if (!Cookies.get('PlanoAprovacao')) {
+    Cookies.set('PlanoAprovacao', 'Daleee', { expires: 3 });
+    setTimeout(function () {
+      $('#modalPlanoAprovacao').modal('show');
+    }, 3333);
+   }
+ });
+</script>
+<!-- / Modal Plano de Aprovação -->
+
   <script>
     (function importHotmart(){
       var imported = document.createElement('script');
